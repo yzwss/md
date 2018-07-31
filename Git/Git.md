@@ -1,4 +1,5 @@
-# Git
+﻿# Git
+yzwss  
 [Git 教程](http://www.runoob.com/git/git-tutorial.html)
 ## 安装
 [msysGit](http://gitforwindows.org/)  
@@ -10,8 +11,8 @@
 + 项目级    .git/config    git config
 
 设置变量
-> git config --global user.name yangzhiwei  
-> git config --global user.name zwyang@foxmail.com  
+> git config --global user.name John  
+> git config --global user.name John@qq.com  
 
 查看变量
 > git config --list  

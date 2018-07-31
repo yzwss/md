@@ -1,12 +1,12 @@
 ## Linux简介
-1991年
-内核版本 www.kernel.org 2.6.18/3.16
-发型版本
-redhat/centos/fedora(redhat开发的个人版，但是不同于Windows的个人版)
-debian/ubuntu
+1991年  
+内核版本 www.kernel.org 2.6.18/3.16  
+发型版本  
+redhat/centos/fedora(redhat开发的个人版，但是不同于Windows的个人版)  
+debian/ubuntu  
 
-www.netcraft.com
-QuickSSHd
+www.netcraft.com  
+QuickSSHd  
 
 ## 系统安装
 
