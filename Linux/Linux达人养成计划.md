@@ -49,7 +49,7 @@ ls -aldhi  . centos6开始出现
 mkdir -p a/b/c/d  
 cd  cd ~ cd -  命令补全、目录补全  
 pwd  
-rmdir  删除空目录
+rmdir  删除空目录  
 rm -rf  删除文件或者目录，r的意思就是删除目录  
 cp -rpd/-a  
 mv  
