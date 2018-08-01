@@ -56,10 +56,11 @@ mv
 ln -s 源文件 目标文件  
 
 
-
-
 ## 搜索命令
-
+locate 文件名       /var/lib/mlocate updatedb  /etc/updatedb.conf
+find  
+whereis/which  
+grep  
 
 
 
