@@ -17,7 +17,19 @@ OOP 对象集合通过方法调用实现通信
 @After  
 
 ## 异常处理
+return {
+    code:
+    message/msg:
+    data: {}
+}
 
-
+@ControllerAdvice  
+@ExceptionHandler  
+@ResponseBody  
 
 ## 单元测试
+@RunWith(SpringRunner.class)  
+@SpringBootTest  
+@Autowired  
+@Test  
+@AutoConfigureMockMvc  
