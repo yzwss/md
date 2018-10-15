@@ -1,5 +1,9 @@
-## 初涉MySQL
-
+﻿## 初涉MySQL
+### MySQL配置
+MySQLInstanceConfig.exe(my.ini)  
+是否安装为服务  
+加入PATH  
+设置root用户的密码  
 
 
 ## 数据类型与操作表
@@ -7,6 +11,11 @@
 
 
 ## 约束与修改表
+表级约束、列级约束
+
+
+
+
 
 
 
