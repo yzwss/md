@@ -1,4 +1,5 @@
 ﻿## 初涉MySQL
+
 ### MySQL配置
 MySQLInstanceConfig.exe(my.ini)  
 是否安装为服务  
@@ -9,6 +10,9 @@ MySQLInstanceConfig.exe(my.ini)
 ASCII图学习下
 
 ## 数据类型与操作表
+概念-安装-配置-使用
+3306 root create/alter/drop database
+
 ### 整型
 - 1B tinyint signed/unsigned
 - 2B smallint signed/unsigned
