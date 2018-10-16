@@ -6,11 +6,32 @@ MySQLInstanceConfig.exe(my.ini)
 加入PATH  
 设置root用户的密码  
 
+``` sql
+-- 单行注释，前面有空格
+#单行注释
+/*多行注释*/
+```
 
 ASCII图学习下
+mock的作用就是隔离
+接口的作用也是隔离
+
+### 登录与退出
+mysql -uroot -proot -h127.0.0.1 -P3306
+
+### 操作数据库
++ 创建
+create database/schema if not exists name;
+- 删除
+* 修改
+* 查看
+show databases/schemas; -- 查看所有
+select database/schema(); -- 查看当前
+* 打开
+use name;
 
 ## 数据类型与操作表
-概念-安装-配置-使用
+概念-安装-配置-操作使用
 3306 root create/alter/drop database
 
 ### 整型
@@ -44,7 +65,19 @@ ASCII图学习下
 - enum('a','b',...) 最多65535
 - set('a','b',...) 最多64 任意的成员的排列组合
 
-
+### 创建表
++ 创建
+create table if not exist tablename (
+    field type null key default extra
+    columnname1 type pk nn uq,
+    columnname2 tinyint unsigned,
+    columnname3 float(8,2) unsigned,
+);
+- 删除
+- 修改
+- 查看
+show tables [from dbname] [like 'pattern' | where expr]; -- 查看所有
+show columus from tablename; -- 查看当前
 
 
 ## 约束与修改表
